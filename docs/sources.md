@@ -12,7 +12,7 @@ touch the network. All three were retrieved on **2026-11-18T23:33:55Z**.
 
 | file | what it is | source | rows | sha256 (full value in `data/MANIFEST.json`) |
 |---|---|---|---|---|
-| `data/vsp_target_meta.json` | target identity for the star that the AAVSO HELP thread is about, TV Cas (AUID `000-BBB-443`, chartid `X43374GGF`, J2000 00:19:18.74 +59:08:20.6) | AAVSO VSP chart API, `https://app.aavso.org/vsp/api/chart?fov=30&star=TV+Cas&maglimit=14.5&format=json` | - | `5dc2ebe9...e7d8d8f` |
+| `data/vsp_target_meta.json` | target identity for the star that the AAVSO HELP thread is about, TV Cas (AUID `000-BBB-443`, chartid `X43374GGF`, J2000 00:19:18.74 +59:08:20.6) | AAVSO VSP chart API, `https://app.aavso.org/vsp/api/chart?fov=30&star=TV+Cas&maglimit=14.5&format=json` | - | `3078315d...77d901` |
 | `data/apass_dr9_tvcas_r0p5.csv` | AAVSO APASS DR9 all-sky photometry, 0.5 deg cone on the target | ESA Gaia archive TAP sync endpoint `https://gea.esac.esa.int/tap-server/tap/sync`, schema `external.apassdr9` (the archive's mirror of VizieR II/336/apass9) | 3262 | `19e7c139...cf1b271b` |
 | `data/gaia_dr3_tvcas_r0p5.csv` | Gaia DR3 sources in the same cone, brightest first (`TOP 2000`, G < 19) | same TAP endpoint, schema `gaiadr3.gaia_source` | 2000 | `f32ff04d...845a8708` |
 
