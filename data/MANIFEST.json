@@ -1,0 +1,33 @@
+{
+  "retrieved_utc": "2026-11-18T23:33:55Z",
+  "target": {
+    "source_url": "https://app.aavso.org/vsp/api/chart?fov=30&star=TV Cas&maglimit=14.5&format=json",
+    "retrieved_utc": "2026-11-18T23:33:55Z",
+    "star": "TV Cas",
+    "auid": "000-BBB-443",
+    "chartid": "X43374GGF",
+    "ra_hms": "00:19:18.74",
+    "dec_dms": "59:08:20.6",
+    "ra_deg": 4.8280833,
+    "dec_deg": 59.1390556
+  },
+  "datasets": [
+    {
+      "file": "apass_dr9_tvcas_r0p5.csv",
+      "label": "AAVSO APASS DR9 (Gaia archive TAP mirror: external.apassdr9)",
+      "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "query": "SELECT recno, raj2000, dej2000, nobs, mobs, b_v, vmag, e_vmag, u_e_vmag, bmag, e_bmag, r_mag, e_r_mag, i_mag, e_i_mag FROM external.apassdr9 WHERE CONTAINS(POINT('ICRS',raj2000,dej2000),CIRCLE('ICRS',4.828083333333334,59.13905555555556,0.5))=1 AND vmag IS NOT NULL ORDER BY vmag",
+      "rows": 3262,
+      "sha256": "19e7c139351b09ff6403e03e1e4c2a7d151f3bb54b80619bf36ed807cf1b271b"
+    },
+    {
+      "file": "gaia_dr3_tvcas_r0p5.csv",
+      "label": "Gaia DR3 gaiadr3.gaia_source (ESA Gaia archive TAP)",
+      "service": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "query": "SELECT TOP 2000 source_id, ra, dec, phot_g_mean_mag, phot_g_mean_flux, phot_g_mean_flux_error, phot_bp_mean_mag, phot_rp_mean_mag, ruwe, phot_variable_flag FROM gaiadr3.gaia_source WHERE CONTAINS(POINT('ICRS',ra,dec),CIRCLE('ICRS',4.828083333333334,59.13905555555556,0.5))=1 AND phot_g_mean_mag IS NOT NULL AND phot_g_mean_mag < 19 ORDER BY phot_g_mean_mag",
+      "rows": 2000,
+      "sha256": "f32ff04dd55cc39501fff69d9fb8683440492b07a3179af6aab9a6d7845a8708"
+    }
+  ],
+  "vsp_target_meta_sha256": "5dc2ebe9431a0a4e8b09daeda9ba2d06a55727f9c55a8986175aca729e7d8d8f"
+}

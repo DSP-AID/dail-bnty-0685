@@ -1,0 +1,1368 @@
+{
+  "calculator_version": "1.0.0",
+  "sec1": {
+    "by_vmag_bin": [
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.0357,
+          "median": 0.018,
+          "min": 0.0162,
+          "n": 24,
+          "p25": 0.0175,
+          "p75": 0.0195,
+          "p90": 0.0255
+        },
+        "n_stars": 24,
+        "nobs_median": 23.5,
+        "scatter_sd_mag": {
+          "max": 0.175,
+          "median": 0.087,
+          "min": 0.081,
+          "n": 24,
+          "p25": 0.084,
+          "p75": 0.0922,
+          "p90": 0.1188
+        },
+        "vmag_bin": "10-11"
+      },
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.0527,
+          "median": 0.0181,
+          "min": 0.0148,
+          "n": 57,
+          "p25": 0.0174,
+          "p75": 0.0192,
+          "p90": 0.0202
+        },
+        "n_stars": 57,
+        "nobs_median": 22.0,
+        "scatter_sd_mag": {
+          "max": 0.129,
+          "median": 0.086,
+          "min": 0.074,
+          "n": 57,
+          "p25": 0.083,
+          "p75": 0.092,
+          "p90": 0.0974
+        },
+        "vmag_bin": "11-12"
+      },
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.4285,
+          "median": 0.0185,
+          "min": 0.005,
+          "n": 141,
+          "p25": 0.0177,
+          "p75": 0.0194,
+          "p90": 0.0206
+        },
+        "n_stars": 141,
+        "nobs_median": 22.0,
+        "scatter_sd_mag": {
+          "max": 0.606,
+          "median": 0.089,
+          "min": 0.01,
+          "n": 141,
+          "p25": 0.084,
+          "p75": 0.094,
+          "p90": 0.096
+        },
+        "vmag_bin": "12-13"
+      },
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.3723,
+          "median": 0.0186,
+          "min": 0.0064,
+          "n": 330,
+          "p25": 0.0178,
+          "p75": 0.0196,
+          "p90": 0.0218
+        },
+        "n_stars": 330,
+        "nobs_median": 22.0,
+        "scatter_sd_mag": {
+          "max": 1.535,
+          "median": 0.088,
+          "min": 0.011,
+          "n": 330,
+          "p25": 0.085,
+          "p75": 0.093,
+          "p90": 0.099
+        },
+        "vmag_bin": "13-14"
+      },
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.2167,
+          "median": 0.0216,
+          "min": 0.0063,
+          "n": 552,
+          "p25": 0.019,
+          "p75": 0.0245,
+          "p90": 0.032
+        },
+        "n_stars": 552,
+        "nobs_median": 20.0,
+        "scatter_sd_mag": {
+          "max": 0.613,
+          "median": 0.095,
+          "min": 0.012,
+          "n": 552,
+          "p25": 0.083,
+          "p75": 0.105,
+          "p90": 0.1189
+        },
+        "vmag_bin": "14-15"
+      },
+      {
+        "catalogue_mean_sem_mag": {
+          "max": 0.3943,
+          "median": 0.0242,
+          "min": 0.002,
+          "n": 1027,
+          "p25": 0.0166,
+          "p75": 0.0335,
+          "p90": 0.0546
+        },
+        "n_stars": 1027,
+        "nobs_median": 11.0,
+        "scatter_sd_mag": {
+          "max": 0.683,
+          "median": 0.078,
+          "min": 0.006,
+          "n": 1027,
+          "p25": 0.054,
+          "p75": 0.114,
+          "p90": 0.1498
+        },
+        "vmag_bin": "15-16"
+      }
+    ],
+    "catalogue_mean_sem_all_mags_mag": {
+      "max": 0.4646,
+      "median": 0.0216,
+      "min": 0.002,
+      "n": 2772,
+      "p25": 0.0178,
+      "p75": 0.032,
+      "p90": 0.0572
+    },
+    "measured_floor_per_measurement_mag": 0.088,
+    "nobs": {
+      "max": 26.0,
+      "median": 12.0,
+      "min": 2.0,
+      "n": 2772,
+      "p25": 7.0,
+      "p75": 20.0,
+      "p90": 22.0
+    },
+    "rows_flagged_unreliable_error": 480,
+    "rows_total": 3262,
+    "rows_usable": 2772,
+    "scatter_all_mags_mag": {
+      "max": 1.535,
+      "median": 0.088,
+      "min": 0.006,
+      "n": 2772,
+      "p25": 0.061,
+      "p75": 0.105,
+      "p90": 0.139
+    },
+    "slope_sd_vs_nobs_by_bin": {
+      "10-11": {
+        "n": 24,
+        "r2": 0.001,
+        "slope": 0.068
+      },
+      "11-12": {
+        "n": 57,
+        "r2": 0.296,
+        "slope": -0.258
+      },
+      "12-13": {
+        "n": 141,
+        "r2": 0.003,
+        "slope": 0.042
+      },
+      "13-14": {
+        "n": 330,
+        "r2": 0.011,
+        "slope": 0.091
+      },
+      "14-15": {
+        "n": 552,
+        "r2": 0.033,
+        "slope": 0.149
+      },
+      "15-16": {
+        "n": 1027,
+        "r2": 0.0,
+        "slope": 0.024
+      }
+    }
+  },
+  "sec2": {
+    "by_gmag_bin": [
+      {
+        "flux_snr_median": 4470.5,
+        "gmag_bin": "10-12",
+        "n_stars": 120,
+        "sigma_mag_median": 0.000243,
+        "sigma_mag_p90": 0.000543
+      },
+      {
+        "flux_snr_median": 6166.6,
+        "gmag_bin": "12-13",
+        "n_stars": 186,
+        "sigma_mag_median": 0.000176,
+        "sigma_mag_p90": 0.000609
+      },
+      {
+        "flux_snr_median": 5867.4,
+        "gmag_bin": "13-14",
+        "n_stars": 401,
+        "sigma_mag_median": 0.000185,
+        "sigma_mag_p90": 0.000496
+      },
+      {
+        "flux_snr_median": 4703.0,
+        "gmag_bin": "14-15",
+        "n_stars": 793,
+        "sigma_mag_median": 0.000231,
+        "sigma_mag_p90": 0.000458
+      },
+      {
+        "flux_snr_median": 3908.7,
+        "gmag_bin": "15-16",
+        "n_stars": 490,
+        "sigma_mag_median": 0.000278,
+        "sigma_mag_p90": 0.000531
+      }
+    ],
+    "rows_total": 2000,
+    "variable_flag_counts": {
+      "NOT_AVAILABLE": 1873,
+      "VARIABLE": 127
+    }
+  },
+  "sec3": {
+    "cases": [
+      {
+        "bright_vs_faint": [
+          {
+            "ens_sd_mag": null,
+            "ens_sem_mag": null,
+            "median_comp_sd_mag": null,
+            "median_comp_vmag": null,
+            "n_available": 0,
+            "n_used": 0,
+            "selection": "about 2 mag brighter than V=7.24"
+          },
+          {
+            "ens_sd_mag": null,
+            "ens_sem_mag": null,
+            "median_comp_sd_mag": null,
+            "median_comp_vmag": null,
+            "n_available": 0,
+            "n_used": 0,
+            "selection": "within 0.5 mag of V=7.24 (matched)"
+          },
+          {
+            "ens_sd_mag": null,
+            "ens_sem_mag": null,
+            "median_comp_sd_mag": null,
+            "median_comp_vmag": null,
+            "n_available": 0,
+            "n_used": 0,
+            "selection": "1.5-2.5 mag fainter than V=7.24"
+          }
+        ],
+        "brightest_usable_comp_vmag": 10.011,
+        "ensembles": {
+          "by_n": [
+            {
+              "comp_mag_range": "10.01..10.17",
+              "ens_sd_ivw_mag": 0.06404,
+              "ens_sd_mag": 0.07607,
+              "ens_sem_mag": 0.01562,
+              "n_requested": 3,
+              "n_used": 3,
+              "worst_comp_delta_vmag": 2.93
+            },
+            {
+              "comp_mag_range": "10.01..10.30",
+              "ens_sd_ivw_mag": 0.04832,
+              "ens_sd_mag": 0.05534,
+              "ens_sem_mag": 0.01132,
+              "n_requested": 5,
+              "n_used": 5,
+              "worst_comp_delta_vmag": 3.07
+            },
+            {
+              "comp_mag_range": "10.01..10.55",
+              "ens_sd_ivw_mag": 0.03464,
+              "ens_sd_mag": 0.03933,
+              "ens_sem_mag": 0.00819,
+              "n_requested": 8,
+              "n_used": 8,
+              "worst_comp_delta_vmag": 3.32
+            },
+            {
+              "comp_mag_range": "10.01..10.65",
+              "ens_sd_ivw_mag": 0.02738,
+              "ens_sd_mag": 0.03017,
+              "ens_sem_mag": 0.00628,
+              "n_requested": 12,
+              "n_used": 12,
+              "worst_comp_delta_vmag": 3.41
+            },
+            {
+              "comp_mag_range": "10.01..10.69",
+              "ens_sd_ivw_mag": 0.02402,
+              "ens_sd_mag": 0.02615,
+              "ens_sem_mag": 0.00545,
+              "n_requested": 20,
+              "n_used": 15,
+              "worst_comp_delta_vmag": 3.45
+            }
+          ],
+          "by_window": [
+            {
+              "comps_available": 0,
+              "dm_window": 0.25
+            },
+            {
+              "comps_available": 0,
+              "dm_window": 0.5
+            },
+            {
+              "comps_available": 0,
+              "dm_window": 1.0
+            },
+            {
+              "comps_available": 0,
+              "dm_window": 1.5
+            },
+            {
+              "comps_available": 0,
+              "dm_window": 2.0
+            },
+            {
+              "comps_available": 4,
+              "dm_window": 3.0
+            }
+          ]
+        },
+        "label": "case A - the real target itself (V = 7.24)",
+        "n_comps_brighter_than_target": 0,
+        "n_usable_stars_in_field": 2772,
+        "target_vmag": 7.239
+      },
+      {
+        "anchor_apass_recno": "3392896",
+        "bright_vs_faint": [
+          {
+            "ens_sd_mag": null,
+            "ens_sem_mag": null,
+            "median_comp_sd_mag": null,
+            "median_comp_vmag": null,
+            "n_available": 0,
+            "n_used": 0,
+            "selection": "about 2 mag brighter than V=11.50"
+          },
+          {
+            "ens_sd_mag": 0.03217,
+            "ens_sem_mag": 0.00671,
+            "median_comp_sd_mag": 0.0855,
+            "median_comp_vmag": 11.49,
+            "n_available": 57,
+            "n_used": 8,
+            "selection": "within 0.5 mag of V=11.50 (matched)"
+          },
+          {
+            "ens_sd_mag": 0.06484,
+            "ens_sem_mag": 0.04154,
+            "median_comp_sd_mag": 0.0875,
+            "median_comp_vmag": 13.03,
+            "n_available": 330,
+            "n_used": 8,
+            "selection": "1.5-2.5 mag fainter than V=11.50"
+          }
+        ],
+        "brightest_usable_comp_vmag": 10.011,
+        "ensembles": {
+          "by_n": [
+            {
+              "comp_mag_range": "11.49..11.50",
+              "ens_sd_ivw_mag": 0.0483,
+              "ens_sd_mag": 0.04831,
+              "ens_sem_mag": 0.0103,
+              "n_requested": 3,
+              "n_used": 3,
+              "worst_comp_delta_vmag": 0.01
+            },
+            {
+              "comp_mag_range": "11.47..11.50",
+              "ens_sd_ivw_mag": 0.04012,
+              "ens_sd_mag": 0.0409,
+              "ens_sem_mag": 0.00858,
+              "n_requested": 5,
+              "n_used": 5,
+              "worst_comp_delta_vmag": 0.03
+            },
+            {
+              "comp_mag_range": "11.42..11.58",
+              "ens_sd_ivw_mag": 0.03167,
+              "ens_sd_mag": 0.03217,
+              "ens_sem_mag": 0.00671,
+              "n_requested": 8,
+              "n_used": 8,
+              "worst_comp_delta_vmag": 0.08
+            },
+            {
+              "comp_mag_range": "11.40..11.61",
+              "ens_sd_ivw_mag": 0.02517,
+              "ens_sd_mag": 0.02552,
+              "ens_sem_mag": 0.00531,
+              "n_requested": 12,
+              "n_used": 12,
+              "worst_comp_delta_vmag": 0.11
+            },
+            {
+              "comp_mag_range": "11.38..11.65",
+              "ens_sd_ivw_mag": 0.01947,
+              "ens_sd_mag": 0.01969,
+              "ens_sem_mag": 0.00413,
+              "n_requested": 20,
+              "n_used": 20,
+              "worst_comp_delta_vmag": 0.16
+            }
+          ],
+          "by_window": [
+            {
+              "comps_available": 27,
+              "dm_window": 0.25
+            },
+            {
+              "comps_available": 57,
+              "dm_window": 0.5
+            },
+            {
+              "comps_available": 131,
+              "dm_window": 1.0
+            },
+            {
+              "comps_available": 222,
+              "dm_window": 1.5
+            },
+            {
+              "comps_available": 348,
+              "dm_window": 2.0
+            },
+            {
+              "comps_available": 797,
+              "dm_window": 3.0
+            }
+          ]
+        },
+        "label": "case B - a real field star used as a stand-in target (V = 11.50)",
+        "n_comps_brighter_than_target": 47,
+        "n_usable_stars_in_field": 2772,
+        "target_vmag": 11.499
+      }
+    ],
+    "comp_photon_table": [
+      {
+        "comp_vmag": 8.5,
+        "delta_vmag": -3.0,
+        "sigma_photon_mag": 0.00065,
+        "sigma_with_atm_mag": 0.088,
+        "snr": 1678.05,
+        "star_e_in_60s": 2817635.5
+      },
+      {
+        "comp_vmag": 9.5,
+        "delta_vmag": -2.0,
+        "sigma_photon_mag": 0.00103,
+        "sigma_with_atm_mag": 0.08801,
+        "snr": 1058.28,
+        "star_e_in_60s": 1121720.9
+      },
+      {
+        "comp_vmag": 10.5,
+        "delta_vmag": -1.0,
+        "sigma_photon_mag": 0.00163,
+        "sigma_with_atm_mag": 0.08802,
+        "snr": 666.93,
+        "star_e_in_60s": 446565.1
+      },
+      {
+        "comp_vmag": 11.5,
+        "delta_vmag": 0.0,
+        "sigma_photon_mag": 0.00259,
+        "sigma_with_atm_mag": 0.08804,
+        "snr": 419.56,
+        "star_e_in_60s": 177780.8
+      },
+      {
+        "comp_vmag": 12.5,
+        "delta_vmag": 1.0,
+        "sigma_photon_mag": 0.00413,
+        "sigma_with_atm_mag": 0.0881,
+        "snr": 262.77,
+        "star_e_in_60s": 70775.8
+      },
+      {
+        "comp_vmag": 13.5,
+        "delta_vmag": 2.0,
+        "sigma_photon_mag": 0.00667,
+        "sigma_with_atm_mag": 0.08825,
+        "snr": 162.82,
+        "star_e_in_60s": 28176.4
+      },
+      {
+        "comp_vmag": 14.5,
+        "delta_vmag": 3.0,
+        "sigma_photon_mag": 0.01103,
+        "sigma_with_atm_mag": 0.08869,
+        "snr": 98.43,
+        "star_e_in_60s": 11217.2
+      },
+      {
+        "comp_vmag": 15.5,
+        "delta_vmag": 4.0,
+        "sigma_photon_mag": 0.0192,
+        "sigma_with_atm_mag": 0.09007,
+        "snr": 56.55,
+        "star_e_in_60s": 4465.7
+      }
+    ],
+    "gaia_crosscheck": {
+      "bp_minus_rp": 0.125,
+      "gmag": 7.202958,
+      "phot_variable_flag": "VARIABLE",
+      "ruwe": 0.8264048,
+      "separation_arcsec": 0.57,
+      "sigma_g_mag": 0.001665,
+      "source_id": "428246623544412416"
+    },
+    "target": {
+      "apass_recno": "3393674",
+      "catalogue_mean_sem_mag": null,
+      "e_vmag_sd_mag": 0.0,
+      "error_flag_unreliable": true,
+      "nobs": 16.0,
+      "separation_arcsec": 0.46,
+      "vmag": 7.239
+    }
+  },
+  "sec4": {
+    "equal_frames": [
+      {
+        "frames": 1,
+        "implied_snr": 12.3,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.088,
+        "sigma_photon_route_mag": 0.088
+      },
+      {
+        "frames": 4,
+        "implied_snr": 24.7,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.044,
+        "sigma_photon_route_mag": 0.044
+      },
+      {
+        "frames": 9,
+        "implied_snr": 37.0,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.02933,
+        "sigma_photon_route_mag": 0.02933
+      },
+      {
+        "frames": 16,
+        "implied_snr": 49.4,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.022,
+        "sigma_photon_route_mag": 0.022
+      },
+      {
+        "frames": 25,
+        "implied_snr": 61.7,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.0176,
+        "sigma_photon_route_mag": 0.0176
+      },
+      {
+        "frames": 36,
+        "implied_snr": 74.0,
+        "routes_agree": true,
+        "sigma_mean_route_mag": 0.01467,
+        "sigma_photon_route_mag": 0.01467
+      }
+    ],
+    "frame_error_percentiles_mag": {
+      "median": 0.088,
+      "p25": 0.061,
+      "p90": 0.139
+    },
+    "mixed_quality_example": {
+      "frame_errors_mag": [
+        0.061,
+        0.061,
+        0.088,
+        0.088,
+        0.417
+      ],
+      "inverse_variance_all": 0.03532,
+      "inverse_variance_kept": 0.03545,
+      "loss_if_bad_frame_kept_unweighted_pct": 134.4,
+      "n_total": 5,
+      "rejected_mask_used": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "unweighted_all": 0.08873,
+      "unweighted_kept": 0.03786
+    }
+  },
+  "sec5": {
+    "error_to_snr": [
+      {
+        "implied_snr": 217.1,
+        "reported_sigma_mag": 0.005
+      },
+      {
+        "implied_snr": 108.6,
+        "reported_sigma_mag": 0.01
+      },
+      {
+        "implied_snr": 54.3,
+        "reported_sigma_mag": 0.02
+      },
+      {
+        "implied_snr": 21.7,
+        "reported_sigma_mag": 0.05
+      },
+      {
+        "implied_snr": 13.6,
+        "reported_sigma_mag": 0.08
+      },
+      {
+        "implied_snr": 12.8,
+        "reported_sigma_mag": 0.085
+      },
+      {
+        "implied_snr": 12.1,
+        "reported_sigma_mag": 0.09
+      },
+      {
+        "implied_snr": 10.9,
+        "reported_sigma_mag": 0.1
+      }
+    ],
+    "sens": {
+      "aper_radius_pix": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01342,
+          "value": 3
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01385,
+          "value": 4
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01443,
+          "value": 5
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01609,
+          "value": 7
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.02006,
+          "value": 10
+        }
+      ],
+      "aperture_cm": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.0477,
+          "value": 8
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.03448,
+          "value": 10
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.02028,
+          "value": 15
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01443,
+          "value": 20
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.00923,
+          "value": 30
+        }
+      ],
+      "base": {
+        "implied_snr_from_reported_error": 12.18,
+        "sigma_frame_total_mag": 0.08918,
+        "sigma_photon_mag": 0.01443,
+        "snr": 75.24
+      },
+      "dark_e_per_s": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01398,
+          "value": 0.0
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01443,
+          "value": 0.1
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01611,
+          "value": 0.5
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.018,
+          "value": 1.0
+        }
+      ],
+      "exposure_s": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.03217,
+          "value": 15
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.02121,
+          "value": 30
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01443,
+          "value": 60
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01,
+          "value": 120
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.00699,
+          "value": 240
+        }
+      ],
+      "read_noise_e": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01391,
+          "value": 1.0
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01443,
+          "value": 2.8
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01639,
+          "value": 6.0
+        },
+        {
+          "dominant_term": "readnoise",
+          "sigma_photon_mag": 0.02015,
+          "value": 10.0
+        }
+      ],
+      "sky_mag_per_arcsec2": [
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01524,
+          "value": 19.5
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01456,
+          "value": 20.4
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01425,
+          "value": 21.3
+        },
+        {
+          "dominant_term": "source",
+          "sigma_photon_mag": 0.01416,
+          "value": 21.8
+        }
+      ]
+    },
+    "setup_cases": [
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08806,
+        "sigma_photon_mag": 0.00334,
+        "snr_photon": 325.03,
+        "stack_constant_offset_mag": 0.08806,
+        "stack_random_case_mag": 0.08806,
+        "star_e": 106869.8,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0057,
+          "sky": 0.002,
+          "sky_determination": 0.0016,
+          "source": 0.9885
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08806,
+        "sigma_photon_mag": 0.00075,
+        "snr_photon": 1453.56,
+        "stack_constant_offset_mag": 0.088,
+        "stack_random_case_mag": 0.01969,
+        "star_e": 106869.8,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0057,
+          "sky": 0.002,
+          "sky_determination": 0.0016,
+          "source": 0.9885
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08803,
+        "sigma_photon_mag": 0.00236,
+        "snr_photon": 460.42,
+        "stack_constant_offset_mag": 0.08803,
+        "stack_random_case_mag": 0.08803,
+        "star_e": 213739.5,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0029,
+          "sky": 0.002,
+          "sky_determination": 0.0011,
+          "source": 0.9918
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08803,
+        "sigma_photon_mag": 0.00053,
+        "snr_photon": 2059.05,
+        "stack_constant_offset_mag": 0.088,
+        "stack_random_case_mag": 0.01968,
+        "star_e": 213739.5,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0029,
+          "sky": 0.002,
+          "sky_determination": 0.0011,
+          "source": 0.9918
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08802,
+        "sigma_photon_mag": 0.00167,
+        "snr_photon": 651.67,
+        "stack_constant_offset_mag": 0.08802,
+        "stack_random_case_mag": 0.08802,
+        "star_e": 427479.0,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0014,
+          "sky": 0.002,
+          "sky_determination": 0.0009,
+          "source": 0.9934
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08802,
+        "sigma_photon_mag": 0.00037,
+        "snr_photon": 2914.35,
+        "stack_constant_offset_mag": 0.088,
+        "stack_random_case_mag": 0.01968,
+        "star_e": 427479.0,
+        "variance_share": {
+          "dark": 0.0022,
+          "readnoise": 0.0014,
+          "sky": 0.002,
+          "sky_determination": 0.0009,
+          "source": 0.9934
+        },
+        "vmag": 11.3
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.0882,
+        "sigma_photon_mag": 0.00587,
+        "snr_photon": 184.9,
+        "stack_constant_offset_mag": 0.0882,
+        "stack_random_case_mag": 0.0882,
+        "star_e": 35387.9,
+        "variance_share": {
+          "dark": 0.0064,
+          "readnoise": 0.0168,
+          "sky": 0.006,
+          "sky_determination": 0.0047,
+          "source": 0.9661
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.0882,
+        "sigma_photon_mag": 0.00131,
+        "snr_photon": 826.89,
+        "stack_constant_offset_mag": 0.08801,
+        "stack_random_case_mag": 0.01972,
+        "star_e": 35387.9,
+        "variance_share": {
+          "dark": 0.0064,
+          "readnoise": 0.0168,
+          "sky": 0.006,
+          "sky_determination": 0.0047,
+          "source": 0.9661
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.0881,
+        "sigma_photon_mag": 0.00413,
+        "snr_photon": 262.77,
+        "stack_constant_offset_mag": 0.0881,
+        "stack_random_case_mag": 0.0881,
+        "star_e": 70775.8,
+        "variance_share": {
+          "dark": 0.0065,
+          "readnoise": 0.0085,
+          "sky": 0.006,
+          "sky_determination": 0.0034,
+          "source": 0.9756
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.0881,
+        "sigma_photon_mag": 0.00092,
+        "snr_photon": 1175.15,
+        "stack_constant_offset_mag": 0.088,
+        "stack_random_case_mag": 0.0197,
+        "star_e": 70775.8,
+        "variance_share": {
+          "dark": 0.0065,
+          "readnoise": 0.0085,
+          "sky": 0.006,
+          "sky_determination": 0.0034,
+          "source": 0.9756
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08805,
+        "sigma_photon_mag": 0.00291,
+        "snr_photon": 372.53,
+        "stack_constant_offset_mag": 0.08805,
+        "stack_random_case_mag": 0.08805,
+        "star_e": 141551.6,
+        "variance_share": {
+          "dark": 0.0065,
+          "readnoise": 0.0043,
+          "sky": 0.0061,
+          "sky_determination": 0.0027,
+          "source": 0.9804
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08805,
+        "sigma_photon_mag": 0.00065,
+        "snr_photon": 1666.02,
+        "stack_constant_offset_mag": 0.088,
+        "stack_random_case_mag": 0.01969,
+        "star_e": 141551.6,
+        "variance_share": {
+          "dark": 0.0065,
+          "readnoise": 0.0043,
+          "sky": 0.0061,
+          "sky_determination": 0.0027,
+          "source": 0.9804
+        },
+        "vmag": 12.5
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08905,
+        "sigma_photon_mag": 0.01365,
+        "snr_photon": 79.56,
+        "stack_constant_offset_mag": 0.08905,
+        "stack_random_case_mag": 0.08905,
+        "star_e": 7393.6,
+        "variance_share": {
+          "dark": 0.0273,
+          "readnoise": 0.0713,
+          "sky": 0.0254,
+          "sky_determination": 0.0199,
+          "source": 0.8561
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08905,
+        "sigma_photon_mag": 0.00305,
+        "snr_photon": 355.81,
+        "stack_constant_offset_mag": 0.08805,
+        "stack_random_case_mag": 0.01991,
+        "star_e": 7393.6,
+        "variance_share": {
+          "dark": 0.0273,
+          "readnoise": 0.0713,
+          "sky": 0.0254,
+          "sky_determination": 0.0199,
+          "source": 0.8561
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08851,
+        "sigma_photon_mag": 0.00945,
+        "snr_photon": 114.92,
+        "stack_constant_offset_mag": 0.08851,
+        "stack_random_case_mag": 0.08851,
+        "star_e": 14787.2,
+        "variance_share": {
+          "dark": 0.0285,
+          "readnoise": 0.0372,
+          "sky": 0.0265,
+          "sky_determination": 0.0148,
+          "source": 0.8931
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08851,
+        "sigma_photon_mag": 0.00211,
+        "snr_photon": 513.93,
+        "stack_constant_offset_mag": 0.08803,
+        "stack_random_case_mag": 0.01979,
+        "star_e": 14787.2,
+        "variance_share": {
+          "dark": 0.0285,
+          "readnoise": 0.0372,
+          "sky": 0.0265,
+          "sky_determination": 0.0148,
+          "source": 0.8931
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08825,
+        "sigma_photon_mag": 0.00661,
+        "snr_photon": 164.3,
+        "stack_constant_offset_mag": 0.08825,
+        "stack_random_case_mag": 0.08825,
+        "star_e": 29574.3,
+        "variance_share": {
+          "dark": 0.0291,
+          "readnoise": 0.019,
+          "sky": 0.0271,
+          "sky_determination": 0.012,
+          "source": 0.9128
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08825,
+        "sigma_photon_mag": 0.00148,
+        "snr_photon": 734.78,
+        "stack_constant_offset_mag": 0.08801,
+        "stack_random_case_mag": 0.01973,
+        "star_e": 29574.3,
+        "variance_share": {
+          "dark": 0.0291,
+          "readnoise": 0.019,
+          "sky": 0.0271,
+          "sky_determination": 0.012,
+          "source": 0.9128
+        },
+        "vmag": 14.2
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.09052,
+        "sigma_photon_mag": 0.02121,
+        "snr_photon": 51.18,
+        "stack_constant_offset_mag": 0.09052,
+        "stack_random_case_mag": 0.09052,
+        "star_e": 3538.8,
+        "variance_share": {
+          "dark": 0.0493,
+          "readnoise": 0.1288,
+          "sky": 0.0459,
+          "sky_determination": 0.0359,
+          "source": 0.7402
+        },
+        "vmag": 15.0
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 30.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.09052,
+        "sigma_photon_mag": 0.00474,
+        "snr_photon": 228.88,
+        "stack_constant_offset_mag": 0.08813,
+        "stack_random_case_mag": 0.02024,
+        "star_e": 3538.8,
+        "variance_share": {
+          "dark": 0.0493,
+          "readnoise": 0.1288,
+          "sky": 0.0459,
+          "sky_determination": 0.0359,
+          "source": 0.7402
+        },
+        "vmag": 15.0
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08918,
+        "sigma_photon_mag": 0.01443,
+        "snr_photon": 75.24,
+        "stack_constant_offset_mag": 0.08918,
+        "stack_random_case_mag": 0.08918,
+        "star_e": 7077.6,
+        "variance_share": {
+          "dark": 0.0533,
+          "readnoise": 0.0696,
+          "sky": 0.0496,
+          "sky_determination": 0.0276,
+          "source": 0.7999
+        },
+        "vmag": 15.0
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 60.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08918,
+        "sigma_photon_mag": 0.00323,
+        "snr_photon": 336.5,
+        "stack_constant_offset_mag": 0.08806,
+        "stack_random_case_mag": 0.01994,
+        "star_e": 7077.6,
+        "variance_share": {
+          "dark": 0.0533,
+          "readnoise": 0.0696,
+          "sky": 0.0496,
+          "sky_determination": 0.0276,
+          "source": 0.7999
+        },
+        "vmag": 15.0
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 1,
+        "sigma_frame_total_mag": 0.08857,
+        "sigma_photon_mag": 0.01,
+        "snr_photon": 108.63,
+        "stack_constant_offset_mag": 0.08857,
+        "stack_random_case_mag": 0.08857,
+        "star_e": 14155.2,
+        "variance_share": {
+          "dark": 0.0555,
+          "readnoise": 0.0363,
+          "sky": 0.0517,
+          "sky_determination": 0.023,
+          "source": 0.8336
+        },
+        "vmag": 15.0
+      },
+      {
+        "dominant_term": "source",
+        "exposure_s": 120.0,
+        "frames": 20,
+        "sigma_frame_total_mag": 0.08857,
+        "sigma_photon_mag": 0.00223,
+        "snr_photon": 485.79,
+        "stack_constant_offset_mag": 0.08803,
+        "stack_random_case_mag": 0.0198,
+        "star_e": 14155.2,
+        "variance_share": {
+          "dark": 0.0555,
+          "readnoise": 0.0363,
+          "sky": 0.0517,
+          "sky_determination": 0.023,
+          "source": 0.8336
+        },
+        "vmag": 15.0
+      }
+    ]
+  },
+  "sec6": {
+    "exposure_s": 60.0,
+    "measured": [
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 0.44,
+        "measured_rms_mag": 0.01,
+        "unexplained_systematic_mag": 0.0,
+        "verdict": "explained by the comparison-star catalogue - your camera is not the limit"
+      },
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 0.88,
+        "measured_rms_mag": 0.02,
+        "unexplained_systematic_mag": 0.0,
+        "verdict": "explained by the comparison-star catalogue - your camera is not the limit"
+      },
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 1.32,
+        "measured_rms_mag": 0.03,
+        "unexplained_systematic_mag": 0.01953,
+        "verdict": "explained by the comparison-star catalogue - your camera is not the limit"
+      },
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 2.2,
+        "measured_rms_mag": 0.05,
+        "unexplained_systematic_mag": 0.04451,
+        "verdict": "worse than the budget: check for a variable or mis-catalogued comp, wrong sky annulus, colour term"
+      },
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 3.73,
+        "measured_rms_mag": 0.085,
+        "unexplained_systematic_mag": 0.08189,
+        "verdict": "as bad as the 0.088 mag catalogue calibration floor: suspect per-frame systematics, not photons"
+      },
+      {
+        "expected_rms_mag": 0.02277,
+        "measured_over_expected": 4.83,
+        "measured_rms_mag": 0.11,
+        "unexplained_systematic_mag": 0.10762,
+        "verdict": "as bad as the 0.088 mag catalogue calibration floor: suspect per-frame systematics, not photons"
+      }
+    ],
+    "regimes": [
+      {
+        "check_star_catalogue_sigma_mag": 0.0,
+        "ensemble_sigma_mag": 0.0,
+        "expected_rms_mag": 0.00259,
+        "implied_snr": 419.2,
+        "label": "internal consistency only (your own frames, no catalogue)",
+        "target_sigma_mag": 0.00259
+      },
+      {
+        "check_star_catalogue_sigma_mag": 0.0216,
+        "ensemble_sigma_mag": 0.00671,
+        "expected_rms_mag": 0.02277,
+        "implied_snr": 47.7,
+        "label": "check star vs catalogue, comps at their catalogue-mean error",
+        "target_sigma_mag": 0.00259
+      },
+      {
+        "check_star_catalogue_sigma_mag": 0.088,
+        "ensemble_sigma_mag": 0.03217,
+        "expected_rms_mag": 0.09373,
+        "implied_snr": 11.6,
+        "label": "check star vs catalogue, comps as good as one measurement each",
+        "target_sigma_mag": 0.00259
+      },
+      {
+        "check_star_catalogue_sigma_mag": 0.0216,
+        "ensemble_sigma_mag": 0.00671,
+        "expected_rms_mag": 0.09086,
+        "implied_snr": 11.9,
+        "label": "absolute calibration of a single frame (what APASS reports)",
+        "target_sigma_mag": 0.088
+      }
+    ],
+    "target_vmag": 11.499
+  },
+  "version": "1.0.0"
+}
