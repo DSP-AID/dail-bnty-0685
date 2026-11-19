@@ -86,3 +86,13 @@ are measured, which are published third-party values and which are labelled assu
 sweeps show no conclusion depends on.
 
 Versions: `error_budget.py` 1.0.0, `run_examples.py` 1.0.0, `fetch_data.py` 1.0.0.
+
+## Erratum on the submission text
+
+The repository under review is the tip of `main`. The DAiL submission text for `bnty_0685` quotes commit
+`704b2393f1e352a2543b9677004d891b22661751`, which was written down before this repository's first push and
+is not an object here; the first real commit is `5d4dad126bbedf172e429f86fc7658f06f36c3ee`. The platform
+does not accept a second submission while the bounty status is `submitted` (POST `/submit` returns 400
+"bounty has no claim to submit to"), so this note is the erratum. Everything else in that text - file list,
+data provenance, measured numbers and the offline verification result - was reproduced from these exact
+file bytes; only this paragraph was added after the clean-machine run.
